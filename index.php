@@ -14,7 +14,7 @@
                         <input type="file" class="file-input" name="fileUpload" id="fileUpload">
                         <span class="file-cta">
                             <span class="file-icon">
-                                <img src="upload.svg" alt="upload icon">
+                                <img src="assets/upload.svg" alt="upload icon">
                             </span>
                             <span class="file-label">
                                 Select file...
