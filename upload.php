@@ -18,6 +18,10 @@ function uploadFile() {
     
     $targetDir = "uploads/";
     
+    if(!is_dir($targetDir)) {
+        mkdir($targetDir, 0777);
+    }
+    
     // basename returns only the filename without path and extension
     $targetFile = $targetDir . basename($filename);
     addLogLine($logFile, $targetFile, "INFO");
